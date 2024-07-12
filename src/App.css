@@ -1,0 +1,109 @@
+/* src/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('./asset/btn.jpeg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8); /* Make the form slightly transparent */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.search-filter {
+  margin-bottom: 20px;
+}
+
+.search-filter input, .search-filter select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination .active button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination .disabled button {
+  cursor: not-allowed;
+}
+
+.chart-container {
+  width: 100%;
+  margin-top: 20px;
+}
